@@ -16,7 +16,7 @@ const siteConfig = {
   title: 'Flume Cloud Services', // Title for your website.
   tagline: 'Flume Cloud Services documentation website',
   url: 'https://flume-cloud-services.github.io', // Your website URL
-  baseUrl: '/docs', // Base URL for your project */
+  baseUrl: '/docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -68,6 +68,8 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: 'default',
   },
+
+  gaTrackingId: 'UA-150416455-1',
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
